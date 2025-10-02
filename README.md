@@ -15,13 +15,13 @@ This strategy exploits mispricings between a real-time win probability model and
     	  SELL if the home team is overvalued.
   	
 4.	Position Sizing & Risk Controls
-    	Trade size determined using a modified Kelly Criterion, scaled by bankroll.
+  	  Trade size determined using a modified Kelly Criterion, scaled by bankroll.
     	Risk constraints:
       	Max $20,000 per position.
         Max 10% of capital at risk.
         Minimum trade size of $100.
   	
-5.	Risk Management & Exits
+7.	Risk Management & Exits
     	Take Profit: Lock in gains at ≥ $80,000 (scaled by Kelly).
     	Stop Loss: Exit if losses reach $50,000.
     	Late-Game Safety Exit: In the last 10 minutes, if score diff < 5 and profit > $55,000, exit.
